@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#btn {
+#btn,#btn1 {
     margin-top: 20px;
     color: white;
     padding: 12px 60px;
@@ -16,7 +16,7 @@
     transition: all 0.8s;
 }
 
-#btn:hover {
+#btn:hover ,#btn1:hover{
     color: #f08010;
     border: 2px solid #f08010;
     background-color: white;
@@ -49,6 +49,11 @@ header {
 @media screen and (max-width:440px) {
     header .col-8 h2 {
         font-size: 20px;
+        margin-top: 10px;
+    }
+    header .col-4 img{
+        margin-top: 10px;
+        height: 40px;
     }
 }
 
@@ -85,4 +90,13 @@ footer {
     text-transform: capitalize;
 }
 
+@media screen and (max-width:440px) {
+    footer  h2{
+        font-size: 22px;
+    }
+    #btn1{
+        padding:7px 30px ;
+        font-size: 15px;
+    }
+}
 /* footer section end */
