@@ -40,8 +40,15 @@ header {
     header .col-8 h2 {
         font-size: 28px;
     }
-    #banner #top{
+
+    #banner #top {
         font-size: 36px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    header .col-8 h2 {
+        font-size: 20px;
     }
 }
 
@@ -52,8 +59,8 @@ header {
 /* logo section start */
 
 
-#logo .col{
-  border-radius: 20px 0px;
+#logo .col {
+    border-radius: 20px 0px;
     transition: all 0.3s;
 }
 
