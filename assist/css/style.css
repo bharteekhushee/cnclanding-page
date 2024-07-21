@@ -55,6 +55,10 @@ header {
         margin-top: 10px;
         height: 40px;
     }
+    
+    #banner #top {
+        font-size: 25px;
+    }
 }
 
 /* header section end */
